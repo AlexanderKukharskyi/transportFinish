@@ -1,0 +1,122 @@
+.request-form {
+  flex-wrap: wrap;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  border-color: black;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.request-form__item {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.request-form__label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.request-form__text {
+  font-weight: 16px;
+}
+
+.request-form__submit {
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.request-form__submit--button {
+  width: 86px;
+  height: 26px;
+  font-size: 14px;
+  background: rgb(235, 236, 236);
+  background: radial-gradient(
+    circle,
+    rgba(235, 236, 236, 1) 0%,
+    rgba(84, 85, 85, 0.5869677375344668) 100%
+  );
+}
+
+.results {
+  border-radius: 5px;
+  border-color: black;
+  margin: auto;
+  border: 1px solid #000;
+  background-color: bisque;
+}
+
+.results-title {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.results-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 17px 17px;
+}
+.results-list:hover img {
+  transition: 1s;
+  opacity: 0.3;
+}
+.results-img {
+  height: 220px;
+  display: block;
+  background: #fff;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  margin: 20px 8px;
+  opacity: 0.75;
+}
+
+.results-link {
+  z-index: 1;
+}
+
+.results-link:hover {
+  z-index: 2;
+}
+
+.results-link--left:hover img {
+  transition: 1s;
+  transform: scale(1.5);
+  opacity: 1;
+}
+.results-link--right:hover img {
+  transition: 1s;
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.no-exist img {
+  cursor: pointer none;
+  border: 5px solid rgb(235, 14, 14);
+  background: repeating-linear-gradient(
+    -45deg,
+    red,
+    red 5px,
+    blue 5px,
+    blue 10px
+  );
+}
+
+.no-exist:hover img {
+  opacity: 0.5;
+  transform: scale(1);
+  z-index: 1;
+  background: url(../Critical.png);
+}
+
+.results-text {
+  margin-left: 10px;
+  font-size: 24px;
+  margin-top: 20px;
+}

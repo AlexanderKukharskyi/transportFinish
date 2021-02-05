@@ -1,0 +1,18 @@
+.request-form {
+  display: flex;
+  text-align: center;
+  width: 720px;
+  height: 200px;
+  background: linear-gradient(#9a5044, #e8d9a9);
+}
+
+.request-form__item {
+}
+
+.request-form__label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.request-form__text {
+}

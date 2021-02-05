@@ -1,0 +1,21 @@
+.request-form {
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  width: 80vh;
+  height: 35vh;
+  background: linear-gradient(#9a5044, #e8d9a9);
+  border-radius: 5px;
+}
+
+.request-form__item {
+}
+
+.request-form__label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.request-form__text {
+  font-weight: 16px;
+}

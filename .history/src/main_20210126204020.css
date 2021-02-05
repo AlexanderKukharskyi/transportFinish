@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin: 0;
+
+  /* background: rgb(174, 224, 238);
+  background: radial-gradient(
+    circle,
+    rgba(174, 224, 238, 1) 0%,
+    rgba(2, 18, 173, 0.4663795022403493) 100%
+  ); */
+
+  background: rgb(141, 168, 230);
+  background: radial-gradient(
+    circle,
+    rgba(141, 168, 230, 0.1487324434168199) 0%,
+    rgba(234, 248, 250, 1) 100%
+  );
+}

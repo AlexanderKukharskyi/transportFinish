@@ -1,0 +1,33 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+body {
+  width: 100%;
+  /* height: 100%; */
+  margin: 0;
+
+  background: rgb(141, 168, 230);
+  background: radial-gradient(
+    circle,
+    rgba(141, 168, 230, 0.1487324434168199) 0%,
+    rgba(234, 248, 250, 1) 100%
+  );
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

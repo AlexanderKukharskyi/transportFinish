@@ -1,0 +1,14 @@
+.request-form {
+  display: flex;
+}
+
+.request-form__item {
+}
+
+.request-form__label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.request-form__text {
+}

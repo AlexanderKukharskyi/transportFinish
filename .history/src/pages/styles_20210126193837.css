@@ -1,0 +1,31 @@
+.request-form {
+  flex-wrap: wrap;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: 100vh;
+  border-radius: 5px;
+  border: 12px;
+  border-color: black;
+}
+
+.request-form__item {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.request-form__label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.request-form__text {
+  font-weight: 16px;
+}
+.request-form__submit {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
